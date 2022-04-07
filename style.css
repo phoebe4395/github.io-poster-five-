@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div.poster{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    background-image: url(print.jpg);
+    background-size: 100px;
+    background-position: cover;
+}
+
+@font-face {
+    font-family: BBBOcelot-Smooth ;
+    src:BBBOcelot-Smooth url(BBBOcelot-Smooth.woff);
+}
+
+div.text{
+    font-size: 50px;
+    text-align: left;
+    font-family: BBBOcelot-Smooth;
+    font-weight: 800;
+    color: deeppink;
+    transition: 0.5s
+    
+}
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+ /* Column stuff */
+
+div.col{
+
+    overflow: hidden;
+    
+    
+    
+}
+
+ /* thirds */
+
+div.w1-2 {
+    width: 50%;
+}
+
+
+
+/* rule 1 */
+
+div.text.one{
+    font-size: 30px;
+}
+
+div.text.two{
+   font-size: 90px;
+    
+}
+
+div.text.three{
+    font-size: 120px;
+    
+}
+
+/* rule 2 */
+
+div.text.a{
+    background-color: none;
+    
+}
+
+div.text.b{
+  background-color: greenyellow
+}
+
+div.text.c{
+    
+}
+
+/* rule 3 */
+
+div.text.x{
+    rotate: -90deg;
+}
+
+div.text.y{
+rotate: 0deg;
+}
+
+div.text.y{
+rotate: 180deg;
+}
+
+div.small{
+    font-size: 20px;
+    text-align: right;
+    color: rgb(223, 214, 97);
+
+}
+
+
+
